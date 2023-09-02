@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Basketball Scorecard</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1 class="title">BASKETBALL SCORE CARD</h1>
+            <div class="container">
+            <div class="container-box">
+                <h2 class="ground">Home</h2>
+                <div class="score">
+                    <p id="home-score">0</p>
+                </div>
+                <div class="btn-container">
+                    <button class="btn" onclick="plusOneHome()">+1</button>
+                    <button class="btn"
+                    onclick="plusTwoHome()">+2</button>
+                    <button class="btn" onclick="plusThreeHome()">+3</button>
+                </div>
+            </div>
+            <div class="container-box">
+                <h2 class="ground">Guest</h2>
+                <div class="score">
+                    <p id="guest-score">0</p>
+                </div>
+                <div class="btn-container">
+                    <button class="btn" onclick="plusOneGuest()">+1</button>
+                    <button class="btn" onclick="plusTwoGuest()">+2</button>
+                    <button class="btn" onclick="plusThreeGuest()">+3</button>
+                </div>
+            </div>
+            </div>
+            <button id="btn-reset" class="btn" onclick="reset()">RESET</button>
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
