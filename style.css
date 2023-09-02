@@ -1,3 +1,7 @@
+ @font-face {
+    font-family: Cursed Timer ULiL;
+    src: url(font/CursedTimerUlil-Aznm.ttf);
+ }
 
 body{
     margin:0;
@@ -37,6 +41,7 @@ body{
 .score{
     display: flex;
     justify-content: center;
+    font-family: Cursed Timer ULiL;
     font-size: 6rem;
     
 }
